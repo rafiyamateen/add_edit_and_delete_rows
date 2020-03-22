@@ -1,0 +1,43 @@
+body{
+background-color: hsl(233, 22%, 29%);;
+}
+*{
+font-family: sans-serif;
+}
+.save{
+    display: none;
+}
+td {
+    text-align: center;
+}
+table{
+    border: 5px solid rgb(145, 148, 165);
+    border-collapse: collapse;
+    margin: auto;
+    background-color: white;
+}
+th{
+    padding: 7px;
+}
+#add:hover{
+    background-color: rgb(185, 151, 105);
+    color: white;
+}
+.del:hover{
+    background-color: rgb(216, 33, 103);
+    color: white;
+}
+.save:hover{
+    background-color: rgb(63, 129, 8);
+    color: white;
+}
+.edit:hover{
+    background-color: rgb(3, 108, 139);
+    color: white;
+}
+.buttons{
+    width: 101px;
+}
+input{
+padding: 3px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add, edit & save in table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table id="table" border="1">
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Enter data</th>
+        </tr>
+        <tr>
+            <td><input type="text" id="index" size="5"></td>
+            <td><input type="text" id="name"></td>
+            <td><input type="text" id="class" size="5"></td>
+            <td class="buttons"><input type="button" value="Add Row" id="add" onclick="addRow()"></td>
+        </tr>
+    </table>
+    <script src="functions.js"></script>
+    </body>
+
+</html>
